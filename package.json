@@ -1,0 +1,30 @@
+{
+  "name": "nomadcoffee-backend",
+  "version": "1.0.0",
+  "description": "nomadcoffee-backend",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kisonKim/nomadcoffee-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kisonKim/nomadcoffee-backend/issues"
+  },
+  "homepage": "https://github.com/kisonKim/nomadcoffee-backend#readme"
+}
