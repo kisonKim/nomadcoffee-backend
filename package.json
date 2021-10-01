@@ -7,9 +7,15 @@
     "@graphql-tools/load-files": "^6.4.0",
     "@prisma/client": "^3.1.1",
     "apollo-server": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "graphql": "^15.6.0",
-    "graphql-tools": "^8.2.0"
+    "graphql-tools": "^8.2.0",
+    "graphql-upload": "^12.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
@@ -20,7 +26,8 @@
     "prisma": "^3.1.1"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node server",
+    "preinstall": "npx npm-force-resolutions",
+    "dev": "nodemon --exec babel-node server --delay 2",
     "migrate": "npx prisma migrate dev --preview-feature",
     "studio": "npx prisma studio"
   },
