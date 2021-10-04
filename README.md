@@ -6,11 +6,11 @@ nomadcoffee-backend
 
 - [x] Create Account
 - [x] See Profile
-- [ ] Login
-- [ ] Edit Profile
-- [ ] Change Avatar (Image Upload)
-- [ ] Follow User
-- [ ] Unfollow User
+- [x] Login
+- [x] Edit Profile
+- [x] Change Avatar (Image Upload)
+- [x] Follow User
+- [x] Unfollow User
 - [ ] Search Users
 - [ ] See Followers
 - [ ] See Following
@@ -28,6 +28,12 @@ nomadcoffee-backend
 
 ## Photos:
 
-- [] Comment on Photo
-- [] Edit Comment
-- [] Delete Comment
+- [ ] Comment on Photo
+- [ ] Edit Comment
+- [ ] Delete Comment
+
+## 4th Submission
+
+- [x] Follow / Unfollow functionality
+- [x] followers & following computed fields with pagination on the seeUser resolver (No extra resolvers)
+- [x] Implement searchUsers resolver
