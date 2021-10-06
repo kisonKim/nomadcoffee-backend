@@ -11,9 +11,9 @@ nomadcoffee-backend
 - [x] Change Avatar (Image Upload)
 - [x] Follow User
 - [x] Unfollow User
-- [ ] Search Users
-- [ ] See Followers
-- [ ] See Following
+- [x] Search Users
+- [x] See Followers
+- [x] See Following
 
 ## Photos:
 
@@ -39,12 +39,15 @@ nomadcoffee-backend
 - [x] Implement searchUsers resolver
 
 ## 5th Submission
+
 ### Task One: Models
-- [ ] Create a Category model with a relationshops to CoffeeShop
-- [ ] Create a CoffeeShop model with a relationship to the User that created the CoffeeShop and relationships to Category
-- [ ] Create a CoffeeShopPhoto model with a relationship to the CoffeeShop
+
+- [x] Create a Category model with a relationshops to CoffeeShop
+- [x] Create a CoffeeShop model with a relationship to the User that created the CoffeeShop and relationships to Category
+- [x] Create a CoffeeShopPhoto model with a relationship to the CoffeeShop
 
 ### Task Two: Resolvers
+
 - [ ] createCoffeeShop should create a CoffeeShop, it should create a Category if it does not exist (the same way we created Hashtags on #6.4 and should upload and create a CoffeeShopPhoto for each uploaded file.
 - [ ] seeCoffeeShops should list all the CoffeeShop with pagination.
 - [ ] seeCoffeeShop should get a CoffeeShop by id.

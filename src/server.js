@@ -10,13 +10,13 @@ const PORT = process.env.PORT;
 
 async function startServer() {
   const server = new ApolloServer({
-  resolvers,
-  typeDefs,
-  context: async ({req }) => {
-  return {
-  loggedInUser : await getUser(req.headers.token),
-  }
-  },
+    resolvers,
+    typeDefs,
+    context: async ({req }) => {
+      return {
+        loggedInUser : await getUser(req.headers.token),
+      }
+    },
   });
 
 await server.start();
